@@ -9,6 +9,7 @@ nav
     width: 100%;
     height: 100px;
     background: #8dc6cb;
+    margin-top: -7%;
 }
  
 nav .main_pages 
@@ -83,28 +84,29 @@ label, #toggle
 }
 
 
-
-
 ul{
     font-weight: bold;
   
 }
 .discov{
-    display: flex;
+     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     background-color: #1bb8c6;
-    height: 300px;
+    height: 400px;
+    margin-top: 8%;
 }
 .h2-discover{
     color: white;
-    margin-top: 7%;
+    margin-top: -2%;
+    text-align: center;
 }
 .search{
     width: 40%;
     height: 40px;
     border-radius: 20px;
+    margin-top: 2%;
 }
 .webDesign-finance{
     display: flex;
@@ -123,7 +125,7 @@ ul{
     height: 80%;
     border-radius: 20px;
     padding: 10px;
-    margin-top: -5%;
+    margin-top: -1%;
 }
 
 .ligne{
@@ -152,7 +154,7 @@ ul{
     opacity: 0.5;
     color: white;
     padding: 10px;
-    margin-top: -5%;
+    margin-top: -1%;
     border-radius: 20px;
 }
 .finance-agenda{
@@ -252,6 +254,7 @@ button{
     height: 80px;
     text-align: center;
 }
+
 .section1-menu2{
     margin-top: 2%;
     position: relative;
@@ -427,16 +430,19 @@ button{
     width:80%;
     height: 40px;  
 } 
-.div-m2{
+.div-m22{
     display: flex;
     flex-direction: column;
     width: 100%;
     margin-left: 3%;
+    background-color: ble;
+    margin-top: 20%;
 }
 .vitrine{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    background-color: red;
 }
 .chck{
     display: flex;
@@ -1227,7 +1233,7 @@ button{
         width: 30%;
     }
     .vitrine{
-        display: none;
+        display: flex;
     }
 } 
 @media screen and (max-width: 1110px) {
@@ -2255,6 +2261,91 @@ button{
         display: none;
     }
 }
+ @media screen and  (max-width: 2560px) {
+
+    .div-icon, .flex{
+        display: none;
+    }
+    nav{
+        margin: 100px auto;
+        margin-top: -1%;
+        position: fixed;
+        width: 100%;
+        height: 100px;
+        background: #8dc6cb;
+    }
+    .discov{
+        height: 20%;
+    }
+    .div-m2, .flex, .div-main2{
+
+    }
+    .fin-1{
+        display: flex;
+        margin-top: 2%;
+    }
+    .h2-fin1-1{
+        width: 30%;
+        height: 10%;
+        font-size: larger;
+    }
+    .fin1-2{
+        width: 100%;
+    }
+    .footer-fin{
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+    }
+    
+  } 
+  
+   @media screen and  (max-width: 1440px) {
+    body{
+        overflow-x: hidden;
+    }
+    nav{
+        margin-top: -3%;
+    }
+    .discov{
+        height: 25%;
+        margin-top: 2%;
+    }
+    .div-icon, .flex{
+        background-color: red;
+    }
+
+    /* .flex, .div-main2 */
+    .div-m2{
+        margin-top: -20%;
+        background-color: red;
+    }
+    /* .vitrine{
+        display:flex;
+    } */
+    .fin-1{
+        display: flex;
+        justify-content: center;
+    }
+    .h2-fin1-1{
+        width: 30%;
+        height: 10%;
+        font-size: larger;
+    }
+    .div-m2, .flex, .div-main2{
+        display: none;
+    }
+    .fin1-2{
+        width: 100%;
+    }
+    .footer-fin{
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+    }
+    
+  } 
+
 @media screen and  (max-width: 1024px) {
     .webDesign-finance{
         display: flex;
