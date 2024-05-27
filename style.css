@@ -89,24 +89,30 @@ ul{
   
 }
 .discov{
-     display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #1bb8c6;
     height: 400px;
-    margin-top: 8%;
+    margin-top: -10%;
+}
+.p-discov{
+    margin-top: -1%;
 }
 .h2-discover{
     color: white;
-    margin-top: -2%;
+    margin-top: 2%;
     text-align: center;
 }
 .search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 40%;
     height: 40px;
     border-radius: 20px;
-    margin-top: 2%;
+    margin-top: -1%;
 }
 .webDesign-finance{
     display: flex;
