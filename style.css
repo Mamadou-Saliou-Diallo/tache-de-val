@@ -51,7 +51,8 @@ label, #toggle
 {
     nav
     {
-        height: 60px;
+        background-color: red;
+        margin-top: 20%;
     }
  
     nav .main_pages 
@@ -94,7 +95,7 @@ ul{
     justify-content: center;
     align-items: center;
     background-color: #1bb8c6;
-    height: 400px;
+    height: 50%;
     margin-top: -10%;
 }
 .p-discov{
@@ -133,6 +134,7 @@ ul{
     padding: 10px;
     margin-top: -1%;
 }
+
 
 .ligne{
     background-color: black;
@@ -448,7 +450,6 @@ button{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background-color: red;
 }
 .chck{
     display: flex;
@@ -1176,7 +1177,7 @@ button{
     
     
 }
-@media screen and (max-width: 1056px) {
+/* @media screen and (max-width: 1056px) {
     .div-main2{
         margin-top: -20%;
         margin-left: -2%;
@@ -1289,9 +1290,9 @@ button{
     .vitrine{
         display: none;
     }
-} 
+}  */
 
-@media screen and (max-width: 1096px) {
+/* @media screen and (max-width: 1096px) {
     .div-main2{
         margin-top: -20%;
         margin-left: -2%;
@@ -1410,112 +1411,70 @@ button{
 .vitrine{
     display: none;
 }
-}
-@media screen and (max-width: 715px) {
+} */
+@media screen and (max-width: 768px) {
+    nav{
+        background-color: #08d5f4;
+    }
+    .h2-discover{
+        margin-top: 10%;
+    }
+    .p-discov{
+        margin-top: -1%;
+    }
+    .search{
+        margin-top: -2%;
+    }
+    .webDesign-finance{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .webDesign{
+        width: 30%;
+    }
+     .web-dsn1{
+        display: none;
+    } 
+    .finance{
+        width: 40%;
+    }
+    .h3-design, .h3-finance{
+        width: 15%;
+    }
+    .secttion1-grid{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 4   0%;
+    }
+    .webDesign-section1{
+        width: 30%;
+        height: 100%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
     .div-main2{
         margin-top: -20%;
         margin-left: -2%;
         height: 60%;
     }
-    .fin-1{
-        margin-top: -90%;
-    }
-    #app2{ 
-        margin-top: -20%;
-    }
-    #app3{
-        margin-top: 15%;
-    }
-    #pousse{
-        margin-top: 3%;
-    }
-    #app1{
-        margin-top: -3%;
-       }
-       #pousse1{
-        margin-top: 4%;
-       }
-    .comment{
-        display: none;
-    }
-    .center{
-        width: 90%;
-        margin-left: 3%;
-        margin-top: 10%;
-   }
-   .center1{
-    width: 90%;
-    margin-left: 3%;
-    margin-top: 5%;
-   }
-   h5, .chc{
-    margin-top: -4%;
-   }
-   
-   .comment{
-    margin-top: 20%;
-    background-color: red;
-   }
-   .amis1{
-       text-align: center;
-       margin-top: -50%;
-   }
-   .div-icon,.flex, .top{
-    display: none;
-}
-.section1-menu2{
-    margin-top: 20%;
-    background-color: blue;
-    height: 100%;
-    }
-.section1-menu3{
-        display: flex;
-        justify-content: space-around;
-        margin-top: 20%;
-
-    }
-    .image{
-        width: 100%;
-        
-    }
-    .quest{
-        font-size: 20px;
-        text-align: center;
-    }
-    .question-frp{
-        display: none;
-    }
-    .veux{
-        display: none;
-    }
-    .fin1-1-grille{
-        display: flex;
-        justify-content: space-around;
-        width: 95%;
-        height: 38%;
-    }
-    .localisation{
-        width: 20%;
-        height: 100%;
-    }
-    .localis{
-        width: 100%;
-        height: 80%;
-    }
-    
-    .fin1-16head1, .fin1-16head2{
-        width: 30%;
-    }
-    .footer-fin{
-        display: flex;
-        margin-top: -50%;
-    }
     .vitrine{
+        margin-top: -30%;
+    }
+    .amis1{
+        margin-top: 20%;
+    }
+    .bas, 
+    .flex, 
+    .flex-droite1, 
+    .flex-droite2, 
+    .flex-droite3{
         display: none;
     }
+
 } 
 
-@media screen and (max-width: 656px) {
+/* @media screen and (max-width: 656px) {
     .div-main2{
         margin-top: -20%;
         margin-left: -2%;
@@ -1546,8 +1505,8 @@ button{
    .vitrine{
     display: none;
 }
-}
-@media screen and (max-width: 974px) {
+} */
+/* @media screen and (max-width: 974px) {
 
    .section1-menu3-imgText{
     display: flex;
@@ -1568,7 +1527,6 @@ button{
     width: 100%;
    }
    .fin1-1-grille{
-    /* background-color: red; */
     height: 100%;
     width: 100%;
    }
@@ -1612,8 +1570,8 @@ button{
    .vitrine{
     display: none;
 }
-}
-@media screen and (max-width: 800px) {
+} */
+/* @media screen and (max-width: 800px) {
 
    .section1-menu3-imgText{
     display: flex;
@@ -1634,7 +1592,6 @@ button{
     width: 100%;
    }
    .fin1-1-grille{
-    /* background-color: red; */
     height: 100%;
     width: 100%;
    }
@@ -1678,8 +1635,8 @@ button{
    .vitrine{
     display: none;
 }
-}
-@media screen and (max-width: 650px) {
+} */
+/* @media screen and (max-width: 650px) {
     .div-main2{
         margin-top: -20%;
         margin-left: -2%;
@@ -1711,7 +1668,6 @@ button{
     width: 100%;
    }
    .fin1-1-grille{
-    /* background-color: red; */
     height: 100%;
     width: 100%;
    }
@@ -1754,427 +1710,80 @@ button{
    .vitrine{
     display: none;
 }
-}
-@media screen and  (max-width: 470px) {
-    .div-main2{
-        margin-top: -20%;
-        margin-left: -2%;
-        height: 60%;
+} */
+ /* @media screen and  (max-width: 425px) {
+   
+     nav,
+    .discov{
+        width: 410px;
+    } 
+    .h2-discover{
+        margin-top: 10%;
     }
-     .comment{
-        margin-top: -80px;
-       }
-       .question-frp{
-        margin-left: 10%;
-       }
-       .image{
-        margin-left: -20%;
-       }
-    .center, .center1{
-        width: 90%;
-        margin-left: 3%;
-   }
-   .amis1{
-       text-align: center;
-       margin-top: -10%;
-   }
-   .div-icon,.flex, .top
-   {
-    display: none;
-}
-.section1-menu2{
-    background-color: blue;
-    height: 100%;
+    .p-discov{
+        margin-top: -1%;
     }
-.section1-menu3{
-        display: flex;
-        justify-content: space-around;
-
+    .search{
+        margin-top: -2%;
     }
-    .vitrine{
-        display: none;
-    }
-}
-@media screen and  (max-width: 1108px) {
-    body{
-        overflow-x: hidden;
-    }
-    .div-main2{
-        margin-top: -20%;
-        margin-left: -2%;
-        height: 60%;
-    }
-    .center, .center1{
-        width: 90%;
-        margin-left: 3%;
-   }
-   .amis1{
-       text-align: center;
-       margin-top: -10%;
-   }
-   .div-icon,.flex, .top
-   {
-    display: none;
-}
-.section1-menu2{
-    background-color: blue;
-    height: 100%;
-    }
-.section1-menu3{
-        display: flex;
-        justify-content: space-around;
-
-    }
-    .vitrine{
-        display: none;
-    }
-}
-@media screen and  (max-width: 800px) {
     .webDesign-finance{
         display: flex;
         flex-direction: column;
-        justify-content: baseline;
+        justify-content: center;
         align-items: center;
-        gap: 3%;
-    }
-    .webDesign{
-        width: 100%;
+        width: 420px;
         height: 60%;
-        margin-top: -6%;
-    }
-    .web-dsn{
-        margin-top: -8%;
-        height: 90%;
-        margin-left: 10%;
-    }
-    .finance{
-        width: 100%;
-        height: 70%;
-        margin-top: 3%
-    }
-    .finance-footer{
-        margin-top: -5%;
-        margin-left: 20%;
-    }
-    button{
-        margin-top: -2%;
-        margin-left: 3%;
-    }
-    .div-main2{
-        margin-top: -20%;
-        margin-left: -2%;
-        height: 60%;
-    }
-    .comment{
-        margin-top: -50%;
-    }
-    .center,.center1{
-        width: 90%;
-        margin-left: 3%;
-   }
-   .amis1{
-       text-align: center;
-       margin-top: -15%;
-   }
-   .div-icon,.flex, .top
-   {
-    display: none;
-}
-.quest{
-    font-size: 50%;
-    width: 100%;
-    height: 5%;
-}
-.question-frp {
-    width: 100%;
-    height: 70%;
-}
-.section1-menu2{
-    background-color: blue;
-    height: 100%;
-    }
-.section1-menu3{
-        display: flex;
-        justify-content: space-around;
-
-    }
-    .fin1-16head1, .fin1-16head2{
-        width: 40%;
-    }
-    .footer-fin {
         margin-top: 2%;
-        display: flex;
-        justify-content: space-around;
-    }
-    .vitrine{
-        display: none;
-    }
-}
-
-@media screen and  (max-width: 600px) {
-    .webDesign-finance{
-        display: flex;
-        flex-direction: column;
-        justify-content: baseline;
-        align-items: center;
-        gap: 3%;
     }
     .webDesign{
-        width: 100%;
-        height: 60%;
-        margin-top: -6%;
-    }
-    .web-dsn{
-        margin-top: -8%;
-        height: 90%;
-        margin-left: 10%;
+        width: 20%;
     }
     .finance{
+        display: none;
+    } */
+    /* .secttion1-grid{
+        display: flex;
+        flex-direction: column;
+        background-color: red;
+        width: 500px;
+    }
+    .webDesign-section1{
+        width: 400px;
+        background-color: rgb(0, 255, 110);
+    }
+    .h3-design, .h3-finance{
+        width: 15%;
+    }
+    .secttion1-grid{
+        display: flex;
+        flex-wrap: wrap;
         width: 100%;
-        height: 70%;
-        margin-top: 3%
+        height: 4   0%;
     }
-    .finance-footer{
-        margin-top: -5%;
-        margin-left: 20%;
-    }
-    button{
-        margin-top: -2%;
-        margin-left: 3%;
+    .webDesign-section1{
+        width: 30%;
+        height: 100%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
     .div-main2{
         margin-top: -20%;
         margin-left: -2%;
         height: 60%;
     }
-    .comment{
-        margin-top: 50%;
-    }
-    .center,.center1{
-        width: 90%;
-        margin-left: 3%;
-   }
-   #app2{
-    display: none;
-   }
-   .amis1{
-       text-align: center;
-       margin-top: 600px;
-   }
-   .div-icon,.flex, .top
-   {
-    display: none;
-}
-.quest{
-    font-size: 50%;
-    width: 100%;
-    height: 5%;
-}
-.question-frp {
-    width: 100%;
-    height: 70%;
-}
-.section1-menu2{
-    background-color: blue;
-    height: 100%;
-    }
-.section1-menu3{
-        display: flex;
-        justify-content: space-around;
-
-    }
-    .fin1-16head1, .fin1-16head2{
-        width: 40%;
-        height: 100%;
-    }
-    .footer-fin {
-        margin-top: 10%;
-        display: flex;
-        height: 100%;
-        justify-content: space-around;
-    }
     .vitrine{
+        margin-top: -30%;
+    }
+    .amis1{
+        margin-top: 20%;
+    }
+    .bas, 
+    .flex, 
+    .flex-droite1, 
+    .flex-droite2, 
+    .flex-droite3{
         display: none;
     }
 }
-@media screen and  (max-width: 975px) {
-    .webDesign-finance{
-        display: flex;
-        flex-direction: column;
-        justify-content: baseline;
-        align-items: center;
-        gap: 3%;
-    }
-    .webDesign{
-        width: 100%;
-        height: 60%;
-        margin-top: -6%;
-    }
-    .web-dsn{
-        margin-top: -8%;
-        height: 90%;
-        margin-left: 10%;
-    }
-    .finance{
-        width: 100%;
-        height: 70%;
-        margin-top: 3%
-    }
-    .finance-footer{
-        margin-top: -5%;
-        margin-left: 20%;
-    }
-    button{
-        margin-top: -2%;
-        margin-left: 3%;
-    }
-    .div-main2{
-        margin-top: -20%;
-        margin-left: -2%;
-        height: 60%;
-    }
-    .comment{
-        margin-top: 50%;
-    }
-    .center,.center1{
-        width: 90%;
-        margin-left: 3%;
-   }
-   #app2{
-    display: none;
-   }
-   .amis1{
-       text-align: center;
-       margin-top: -50%;
-   }
-   .div-icon,.flex, .top
-   {
-    display: none;
-}
-.quest{
-    font-size: 50%;
-    width: 100%;
-    height: 5%;
-}
-.question-frp {
-    width: 100%;
-    height: 70%;
-}
-.section1-menu2{
-    background-color: blue;
-    height: 100%;
-    }
-.section1-menu3{
-        display: flex;
-        justify-content: space-around;
-
-    }
-    .fin1-16head1, .fin1-16head2{
-        width: 40%;
-        height: 100%;
-    }
-    .footer-fin {
-        margin-top: 10%;
-        display: flex;
-        height: 100%;
-        justify-content: space-around;
-    }
-    .vitrine{
-        display: none;
-    }
-}
-
-@media screen and  (max-width: 900px) {
-    .webDesign-finance{
-        display: flex;
-        flex-direction: column;
-        justify-content: baseline;
-        align-items: center;
-        gap: 3%;
-    }
-    .webDesign{
-        width: 100%;
-        height: 60%;
-        margin-top: -6%;
-    }
-    .web-dsn{
-        margin-top: -8%;
-        height: 90%;
-        margin-left: 10%;
-    }
-    .finance{
-        width: 100%;
-        height: 70%;
-        margin-top: 3%
-    }
-    .finance-footer{
-        margin-top: -5%;
-        margin-left: 20%;
-    }
-    button{
-        margin-top: -2%;
-        margin-left: 3%;
-    }
-    .div-main2{
-        margin-top: -20%;
-        margin-left: -2%;
-        height: 60%;
-    }
-    .comment{
-        margin-top: 40%;
-        
-    }
-    
-    
-    .center,.center1{
-        width: 90%;
-        margin-left: 3%;
-        margin-top: 5%;
-   }
-   #app2{
-    display: none;
-   }
-   .amis1{
-       text-align: center;
-       margin-top: -50%;
-   }
-   .div-icon,.flex, .top
-   {
-    display: none;
-}
-.quest{
-    font-size: 50%;
-    width: 100%;
-    height: 5%;
-}
-.question-frp {
-    width: 100%;
-    height: 70%;
-}
-.section1-menu2{
-    background-color: blue;
-    height: 100%;
-    }
-.section1-menu3{
-        display: flex;
-        justify-content: space-around;
-
-    }
-    .fin1-16head1, .fin1-16head2{
-        width: 40%;
-        height: 100%;
-    }
-    .footer-fin {
-        margin-top: 3%;
-        display: flex;
-        height: 50%;
-        justify-content: space-around;
-    }
-    .vitrine{
-        display: none;
-    }
-}
-@media screen and  (max-width: 702px) {
     .webDesign-finance{
         display: flex;
         flex-direction: column;
@@ -2265,12 +1874,12 @@ button{
     }
     .vitrine{
         display: none;
-    }
-}
- @media screen and  (max-width: 2560px) {
+    } 
+  */
+ /* @media screen and  (max-width: 2560px) {
 
     .div-icon, .flex{
-        display: none;
+        display: flex;
     }
     nav{
         margin: 100px auto;
@@ -2284,7 +1893,7 @@ button{
         height: 20%;
     }
     .div-m2, .flex, .div-main2{
-
+      
     }
     .fin-1{
         display: flex;
@@ -2304,9 +1913,86 @@ button{
         justify-content: space-around;
     }
     
-  } 
+  }  */
   
    @media screen and  (max-width: 1440px) {
+    body{
+        overflow-x: hidden;
+    }
+    nav{
+        margin-top: -5%;
+    }
+    .discov{
+        height: 25%;
+        margin-top: 4%;
+    }
+    .webDesign-finance{
+        display: flex;
+        justify-content: center;
+    }
+     .webDesign{
+        width: 30%;
+    }
+    .finance{
+        width: 40%;
+    } 
+   
+    .fin-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .localisation{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .h2-fin1-1{
+        width: 30%;
+        height: 10%;
+        font-size: larger;
+    }
+    .div-m2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3%;
+        margin-left: -7%;
+    }
+    .vitrine{
+        width: 90%;
+        margin-left: 6%;
+        margin-top: 2%;
+    }
+    .flex{
+         background-color: #2d8ee3;
+         margin-top: 0%;
+         height: 70%;
+    }
+    .flex-droite1{
+        margin-top: 7%;
+    }
+    .div-main2{
+      display: flex;
+    }
+    .bas{
+        margin-top: 1%;
+    }
+    /* .top{
+        margin-top: 1;
+    } */
+    .fin1-2{
+        width: 100%;
+    }
+    .footer-fin{
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+    }
+    
+  } 
+
+ @media screen and  (max-width: 1024px) {
     body{
         overflow-x: hidden;
     }
@@ -2317,18 +2003,7 @@ button{
         height: 25%;
         margin-top: 2%;
     }
-    .div-icon, .flex{
-        background-color: red;
-    }
-
-    /* .flex, .div-main2 */
-    .div-m2{
-        margin-top: -20%;
-        background-color: red;
-    }
-    /* .vitrine{
-        display:flex;
-    } */
+   
     .fin-1{
         display: flex;
         justify-content: center;
@@ -2338,8 +2013,35 @@ button{
         height: 10%;
         font-size: larger;
     }
-    .div-m2, .flex, .div-main2{
-        display: none;
+    .div-m2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3%;
+        margin-left: -7%;
+    }
+    .vitrine{
+        width: 90%;
+        margin-left: 6%;
+        margin-top: -10%;
+    }
+    .top{
+        margin-top: -30%;
+    }
+    
+    .flex{
+         background-color: #2d8ee3;
+         margin-top: -155px;
+         height: 70%;
+    }
+    .flex-droite1{
+        margin-top: -150px;
+    }
+    .div-main2{
+      display: flex;
+    }
+    .bas{
+        margin-top: 1%;
     }
     .fin1-2{
         width: 100%;
@@ -2349,111 +2051,4 @@ button{
         justify-content: center;
         justify-content: space-around;
     }
-    
-  } 
-
-@media screen and  (max-width: 1024px) {
-    .webDesign-finance{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 3%;
-    }
-    .webDesign{
-        width: 100%;
-        height: 60%;
-        margin-top: -6%;
-    }
-    .web-dsn{
-        margin-top: -8%;
-        height: 90%;
-        margin-left: 10%;
-    }
-    .finance{
-        width: 100%;
-        height: 70%;
-        margin-top: 3%
-    }
-    .finance-footer{
-        margin-top: -5%;
-        margin-left: 20%;
-    }
-    button{
-        margin-top: -2%;
-        margin-left: 3%;
-    }
-    .div-main2{
-        margin-top: -20%;
-        margin-left: -2%;
-        height: 60%;
-    }
-    .div-m2{
-        margin-top: 40%;
-    }
-    .comment{
-        margin-top: -40%;
-        
-    }
-    #app3{
-        margin-top: 1%;
-    }
-    #pousse{
-        margin-top: 1%;
-    }
-    #app1{
-          margin-top: -5%;
-    }
-    #pousse1{
-        margin-top: 1%;
-    }
-    
-    .center,.center1{
-        width: 90%;
-        margin-left: 3%;
-        margin-top: 20%;
-   }
-   #app2{
-    display: none;
-   }
-   .amis1{
-       text-align: center;
-       margin-top: -50%;
-   }
-   .div-icon,.flex, .top
-   {
-    display: none;
 }
-.quest{
-    font-size: 50%;
-    width: 100%;
-    height: 5%;
-}
-.question-frp {
-    width: 100%;
-    height: 70%;
-}
-.section1-menu2{
-    background-color: blue;
-    height: 100%;
-    }
-.section1-menu3{
-        display: flex;
-        justify-content: space-around;
-
-    }
-    .fin1-16head1, .fin1-16head2{
-        width: 40%;
-        height: 100%;
-    }
-    .footer-fin {
-        margin-top: 3%;
-        display: flex;
-        height: 50%;
-        justify-content: space-around;
-    }
-    .vitrine{
-        display: none;
-    }
-}
-
