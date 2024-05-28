@@ -16,7 +16,7 @@ body{
 
 /* --------------------------en tete------------------------------ */
 header {
-    background: linear-gradient(to right, #448c9c, #55cbe6, #63d9df);
+    background: linear-gradient(to right, #10af94, #779e39, #10af94);
     border-bottom: 1px solid rgba(128, 208, 199, 0.35);
     height: 80px;
     width: 100%;
@@ -100,7 +100,7 @@ nav > ul > li > a:hover {
 /*------------------------------CSS_Section 1------------------------------------ */
 .section1 {
     padding: 90px 0px;
-    background: linear-gradient(to top, #448c9c, #4c94a4, #60acb0);
+    background: linear-gradient(to top, #0daacd, #5cbc24, #0aab5b);
     height: 70vh;
     width: 100%;
     display: flex;
@@ -171,7 +171,7 @@ nav > ul > li > a:hover {
 /* ---------------------------------------Section 2----------------------------------------- */
 .section2 {
     margin-bottom: 20px;
-    background: #82d1c4;
+    background: #10af94;
     height: 450px;
     border-bottom-left-radius: 70px;
     border-bottom-right-radius: 70px;
