@@ -1449,7 +1449,7 @@ button{
         height: 4   0%;
     }
     .webDesign-section1{
-        width: 30%;
+        width: 100%;
         height: 100%;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
@@ -1711,12 +1711,12 @@ button{
     display: none;
 }
 } */
- /* @media screen and  (max-width: 425px) {
+   @media screen and  (max-width: 430px){
    
-     nav,
-    .discov{
-        width: 410px;
-    } 
+    nav{
+        width: 430px;
+        margin-top: 7%;
+    }   
     .h2-discover{
         margin-top: 10%;
     }
@@ -1735,186 +1735,17 @@ button{
         height: 60%;
         margin-top: 2%;
     }
-    .webDesign{
-        width: 20%;
-    }
+    .webDesign,
     .finance{
         display: none;
-    } */
-    /* .secttion1-grid{
-        display: flex;
-        flex-direction: column;
-        background-color: red;
-        width: 500px;
-    }
-    .webDesign-section1{
-        width: 400px;
-        background-color: rgb(0, 255, 110);
-    }
-    .h3-design, .h3-finance{
-        width: 15%;
-    }
-    .secttion1-grid{
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        height: 4   0%;
-    }
-    .webDesign-section1{
-        width: 30%;
-        height: 100%;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    }
-    .div-main2{
-        margin-top: -20%;
-        margin-left: -2%;
-        height: 60%;
-    }
-    .vitrine{
-        margin-top: -30%;
-    }
-    .amis1{
-        margin-top: 20%;
-    }
-    .bas, 
-    .flex, 
-    .flex-droite1, 
-    .flex-droite2, 
-    .flex-droite3{
-        display: none;
-    }
-}
-    .webDesign-finance{
-        display: flex;
-        flex-direction: column;
-        justify-content: baseline;
-        align-items: center;
-        gap: 3%;
-    }
-    .webDesign{
-        width: 100%;
-        height: 60%;
-        margin-top: -6%;
-    }
-    .web-dsn{
-        margin-top: -8%;
-        height: 90%;
-        margin-left: 10%;
-    }
-    .finance{
-        width: 100%;
-        height: 70%;
-        margin-top: 3%
-    }
-    .finance-footer{
-        margin-top: -5%;
-        margin-left: 20%;
-    }
-    button{
-        margin-top: -2%;
-        margin-left: 3%;
-    }
-    .div-main2{
-        margin-top: -20%;
-        margin-left: -2%;
-        height: 60%;
-    }
-    .div-m2{
-        margin-top: 20%;
-    }
-    .comment{
-        margin-top: 5%;
-        
-    }
-    
-    
-    .center,.center1{
-        width: 90%;
-        margin-left: 3%;
-        margin-top: 20%;
-   }
-   #app2{
-    display: none;
-   }
-   .amis1{
-       text-align: center;
-       margin-top: -50%;
-   }
-   .div-icon,.flex, .top
-   {
-    display: none;
-}
-.quest{
-    font-size: 50%;
-    width: 100%;
-    height: 5%;
-}
-.question-frp {
-    width: 100%;
-    height: 70%;
-}
-.section1-menu2{
-    background-color: blue;
-    height: 100%;
-    }
-.section1-menu3{
-        display: flex;
-        justify-content: space-around;
-
-    }
-    .fin1-16head1, .fin1-16head2{
-        width: 40%;
-        height: 100%;
-    }
-    .footer-fin {
-        margin-top: 3%;
-        display: flex;
-        height: 50%;
-        justify-content: space-around;
-    }
-    .vitrine{
-        display: none;
-    } 
-  */
- /* @media screen and  (max-width: 2560px) {
-
-    .div-icon, .flex{
-        display: flex;
-    }
-    nav{
-        margin: 100px auto;
-        margin-top: -1%;
-        position: fixed;
-        width: 100%;
-        height: 100px;
-        background: #8dc6cb;
-    }
-    .discov{
-        height: 20%;
-    }
-    .div-m2, .flex, .div-main2{
-      
-    }
-    .fin-1{
-        display: flex;
-        margin-top: 2%;
-    }
-    .h2-fin1-1{
-        width: 30%;
-        height: 10%;
-        font-size: larger;
-    }
-    .fin1-2{
-        width: 100%;
     }
     .footer-fin{
-        display: flex;
-        justify-content: center;
-        justify-content: space-around;
+        height: 100%;
+        margin-top: 30%;
     }
-    
-  }  */
-  
+}
+
+
    @media screen and  (max-width: 1440px) {
     body{
         overflow-x: hidden;
